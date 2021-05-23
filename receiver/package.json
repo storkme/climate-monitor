@@ -1,0 +1,28 @@
+{
+  "name": "climon",
+  "version": "1.0.0",
+  "description": "climate monitoring tool",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start:watch": "tsnd src/index.ts"
+  },
+  "author": "alex@not.gd",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-12",
+    "bluez": "^0.4.1",
+    "node-ble": "^1.5.0"
+  }
+}

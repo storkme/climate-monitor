@@ -1,0 +1,6 @@
+/dist
+/deployment
+/node_modules
+/.env
+/credentials.json
+/etc
